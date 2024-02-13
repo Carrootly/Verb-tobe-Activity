@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding-top: 0;
+    font-family:cursive;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+}
+
+.userInput{
+    height: 30px;
+    border-radius: 10px;
+    font-size: 30px;
+    align-items: center;
+}
+
+button{
+    width: 100px;
+    font-weight: 1000;
+      height: 100px;
+      background-color: yellow; /* Cor de fundo opcional */
+      border-radius: 50%; /* Define a borda como metade da largura/altura para criar um círculo */
+    }
+
+    button:hover{
+        background-color: rgb(236, 236, 181);
+    }
+
+
